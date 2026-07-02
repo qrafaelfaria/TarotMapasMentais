@@ -52,9 +52,9 @@ const PremiumOfferModal: React.FC<PremiumOfferModalProps> = ({
             
             <ul className="space-y-2.5 text-left">
               {[
-                "Bônus 1 - Guia de Combinações",
-                "Bônus 2 - Modelos de Tiragens",
-                "Bônus 3 - Guia das Polaridades das Cartas",
+                "Bônus 1 - Guia Básico do Tarot",
+                "Bônus 2 - Técnica Oráculo Invertido",
+                "Bônus 3 - Tarot e Sáude com as Cartas",
               ].map((bonus, idx) => (
                 <li key={idx} className="flex items-center gap-2.5">
                   <div className="flex-shrink-0 w-5 h-5 rounded-md bg-success flex items-center justify-center">

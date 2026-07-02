@@ -16,9 +16,9 @@ import Feedback01 from "@/assets/Feedback01.png";
 import Feedback02 from "@/assets/Feedback02.png";
 import Feedback03 from "@/assets/Feedback03.png";
 import GarantiaImage from "@/assets/Garantia.webp";
-import Bonus01 from "@/assets/GuiaBonus.png";
-import Bonus02 from "@/assets/PolarBonus.png";
-import Bonus03 from "@/assets/TiragensBonus.png";
+import Bonus01 from "@/assets/BasicoBonus.jpeg";
+import Bonus02 from "@/assets/OraculoBonus.png";
+import Bonus03 from "@/assets/SaudeBonus.png";
 
 const CHECKOUT_URL = "#checkout";
 const PREMIUM_CHECKOUT_URL = "https://pay.wiapy.com/ulk84ywIP_";
@@ -72,14 +72,14 @@ const bonuses = [
     title: "Técnica Oráculo Invertido",
     desc: "Um exercício prático criado para acelerar a interpretação dos Arcanos Maiores.",
     old: "R$14,90",
-    imageSrc: Bonus03,
+    imageSrc: Bonus02,
     isBonus: true,
   },
   {
     title: "Tarot e Sáude com as Cartas",
     desc: "Entenda como as cartas podem auxiliar na compreensão energética da saúde e do seu bem-estar integral.",
     old: "R$24,90",
-    imageSrc: Bonus02,
+    imageSrc: Bonus03,
     isBonus: true,
   },
 ];
