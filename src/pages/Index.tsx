@@ -62,22 +62,22 @@ const tshirts = [
 
 const bonuses = [
   {
-    title: "Guia de Combinações",
-    desc: "Veja como as cartas se combinam entre si e o significado que cada junção assume na leitura.",
+    title: "Guia Básico do Tarot",
+    desc: "Um guia fundamental focado nos pilares essenciais para quem está dando os primeiros passos no mundo do Tarot.",
     old: "R$9,90",
     imageSrc: Bonus01,
     isBonus: true,
   },
   {
-    title: "Modelos de Tiragens",
-    desc: "Receba modelos prontos de tiragens com o passo a passo de como dispor e interpretar cada carta em cada posição.",
+    title: "Técnica Oráculo Invertido",
+    desc: "Um exercício prático criado para acelerar a interpretação dos Arcanos Maiores.",
     old: "R$14,90",
     imageSrc: Bonus03,
     isBonus: true,
   },
   {
-    title: "Guia das Polaridades das Cartas",
-    desc: "Descubra quais cartas são positivas, negativas e neutras — e como isso muda completamente a leitura das combinações.",
+    title: "Tarot e Sáude com as Cartas",
+    desc: "Entenda como as cartas podem auxiliar na compreensão energética da saúde e do seu bem-estar integral.",
     old: "R$24,90",
     imageSrc: Bonus02,
     isBonus: true,
