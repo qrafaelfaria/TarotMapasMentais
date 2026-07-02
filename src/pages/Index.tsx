@@ -2,14 +2,14 @@ import { useEffect, useMemo, useState, useRef } from "react";
 import { Play, Check, X, ChevronDown, ChevronsDown, Flame, Clock, ShieldCheck, Zap, BookOpen, Trophy, Crown, Library, Dices, Palette, Type, CheckSquare, Gift } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import tshirt1 from "@/assets/01.png";
-import tshirt2 from "@/assets/02.png";
-import tshirt3 from "@/assets/03.png";
-import tshirt4 from "@/assets/04.png";
-import tshirt5 from "@/assets/05.png";
-import tshirt6 from "@/assets/06.png";
+import tshirt1 from "@/assets/Tarot 01.png";
+import tshirt2 from "@/assets/Tarot 02.png";
+import tshirt3 from "@/assets/Tarot 03.png";
+import tshirt4 from "@/assets/Tarot 04.png";
+import tshirt5 from "@/assets/Tarot 05.png";
+import tshirt6 from "@/assets/Tarot 06.png";
 
-import HeroCopa from "@/assets/HeroCigano.png";
+import HeroCopa from "@/assets/TatorHero.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
 import Feedback01 from "@/assets/Feedback01.png";
@@ -150,7 +150,7 @@ const Index = () => {
           </div>
 
           <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-primary`}>
-            <span className="text-foreground">36 Cartas do Baralho Cigano</span> em Mapas Mentais
+            <span className="text-foreground">22 Arcanos Maiores do Tarot</span> em Mapas Mentais
             <br />
           </h1>
 
@@ -171,7 +171,7 @@ const Index = () => {
 
             <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
               <p className="font-medium text-lg sm:text-lg">
-               Aprenda a ler e interpretar todas as 36 Cartas do Baralho Cigano de forma Simples, Visual e Organizada.
+               Aprenda a ler e interpretar todas os 22 Arcanos Maiores do Tarot de forma Simples, Visual e Organizada.
               </p>
             </div>
           </div>
@@ -196,7 +196,7 @@ const Index = () => {
             {tshirts.map((t, index) => (
               <div
                 key={`${t.alt}-${index}`}
-                className="snap-center shrink-0 w-[100%] aspect-[16/9] rounded-2xl overflow-hidden"
+                className="snap-center shrink-0 w-[80vw] overflow-hidden"
               >
                 <img src={t.src} alt={t.alt} loading="lazy" className="w-full h-full object-contain block" />
               </div>
@@ -214,7 +214,7 @@ const Index = () => {
               },
               { 
                 icon: "✂️", 
-                title: "Cartas e seus significados explicados de forma simples.",
+                title: "Arcanos Maiores e seus significados explicados de forma simples.",
               },
               { 
                 icon: "✏️", 
@@ -260,13 +260,13 @@ const Index = () => {
         <section className="mt-4">
           <div className="space-y-3">
             {[
-              { emoji: "✅", text: "36 Mapas mentais prontos das cartas do baralho cigano." },
+              { emoji: "✅", text: "22 Mapas mentais prontos das Arcanos Maiores do Tarot." },
               { emoji: "✅", text: "Significado explicado de forma simples." },
-              { emoji: "✅", text: "Palavras-chave, pontos positivos e desafios." },
-              { emoji: "✅", text: "Significado geral e conselho." },
+              { emoji: "✅", text: "Palavras-chave, potencial e sombra da carta." },
+              { emoji: "✅", text: "Significado geral, conselho e simbologia do Tarot." },
               { emoji: "✅", text: "Interpretação no amor." },
-              { emoji: "✅", text: "Interpretação no financeiro." },
-              { emoji: "✅", text: "Interpretação na espiritualidade." },
+              { emoji: "✅", text: "Interpretação no trabalho." },
+              { emoji: "✅", text: "Interpretação no desenvolvimento espiritual." },
               { emoji: "✅", text: "Material em PDF para acessar, estudar e imprimir." },
               { emoji: "🎁", text: "Bônus exclusivos no Plano Completo." },
             ].map((item, idx) => (
@@ -299,7 +299,7 @@ const Index = () => {
         <section className="py-6 mt-4">
           <div className="bg-accent -mx-4 px-6 py-10 mb-8 text-center text-white">
             <p className="text-lg sm:text-xl font-medium leading-tight mb-6">
-              🎁 Além dos <strong> 36 Mapas Mentais das Cartas do Baralho Cigano</strong>, ao adquirir o <br />
+              🎁 Além dos <strong> 22 Mapas Mentais das Arcanos Maiores do Tarot</strong>, ao adquirir o <br />
               Plano Completo você vai levar <strong>3 SUPER BÔNUS!</strong>
             </p>
             
