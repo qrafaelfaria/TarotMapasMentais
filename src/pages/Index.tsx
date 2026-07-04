@@ -150,7 +150,7 @@ const Index = () => {
           </div>
 
           <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-primary`}>
-            <span className="text-foreground">22 Arcanos Maiores do Tarot</span> em Mapas Mentais
+            <span className="text-foreground">22 Mapas Mentais para Aprender os</span> Arcanos Maiores do Tarot de Forma Visual e Prática
             <br />
           </h1>
 
