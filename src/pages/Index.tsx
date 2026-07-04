@@ -150,7 +150,7 @@ const Index = () => {
           </div>
 
           <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-primary`}>
-            <span className="text-foreground">22 Mapas Mentais para Aprender os</span> Arcanos Maiores do Tarot de Forma Visual e Prática
+            <span className="text-foreground">78 Mapas Mentais para Aprender as</span> Cartas do Tarot de Forma Visual e Prática
             <br />
           </h1>
 
@@ -171,7 +171,7 @@ const Index = () => {
 
             <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
               <p className="font-medium text-lg sm:text-lg">
-               Aprenda a ler e interpretar todas os 22 Arcanos Maiores do Tarot de forma Simples, Visual e Organizada.
+               Aprenda a ler e interpretar todas as 78 Cartas do Tarot de forma Simples, Visual e Organizada.
               </p>
             </div>
           </div>
@@ -260,7 +260,7 @@ const Index = () => {
         <section className="mt-4">
           <div className="space-y-3">
             {[
-              { emoji: "✅", text: "22 Mapas mentais prontos das Arcanos Maiores do Tarot." },
+              { emoji: "✅", text: "78 Mapas mentais prontos das Cartas do Tarot." },
               { emoji: "✅", text: "Significado explicado de forma simples." },
               { emoji: "✅", text: "Palavras-chave, potencial e sombra da carta." },
               { emoji: "✅", text: "Significado geral, conselho e simbologia do Tarot." },
@@ -299,7 +299,7 @@ const Index = () => {
         <section className="py-6 mt-4">
           <div className="bg-accent -mx-4 px-6 py-10 mb-8 text-center text-white">
             <p className="text-lg sm:text-xl font-medium leading-tight mb-6">
-              🎁 Além dos <strong> 22 Mapas Mentais das Arcanos Maiores do Tarot</strong>, ao adquirir o <br />
+              🎁 Além dos <strong> 78 Mapas Mentais das Cartas do Tarot</strong>, ao adquirir o <br />
               Plano Completo você vai levar <strong>3 SUPER BÔNUS!</strong>
             </p>
             
@@ -368,7 +368,7 @@ const Index = () => {
                 <span className="text-4xl font-extrabold text-foreground">R$10,00</span>
               </div>
               <ul className="mt-4 space-y-2 text-sm text-left self-start">
-                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> 22 Mapas Mentais das Arcanos Maiores do Tarot</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> 78 Mapas Mentais das Cartas do Tarot</li>
                 <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> Material em PDF para acessar e estudar</li>
                 <li className="flex items-start gap-2"><X className="w-4 h-4 text-destructive mt-0.5" /> Não inclui os bônus do Plano Completo</li>
               </ul>
@@ -422,9 +422,9 @@ const Index = () => {
 
                 <ul className="mt-5 space-y-2.5 text-medium text-left self-start">
                   {[
-                    { text: "22 Mapas Mentais das Arcanos Maiores do Tarot", isBonus: false },
+                    { text: "78 Mapas Mentais das Cartas do Tarot", isBonus: false },
                     { text: "Material em PDF para acessar e estudar", isBonus: false },
-                    { text: "Arcanos Maiores e seus significados explicados de forma simples.", isBonus: false },
+                    { text: "Cartas e seus significados explicados de forma simples.", isBonus: false },
                     { text: "Guia Básico do Tarot", isBonus: true, bonusNum: 1 },
                     { text: "Técnica Oráculo Invertido", isBonus: true, bonusNum: 2 },
                     { text: "Tarot e Sáude com as Cartas", isBonus: true, bonusNum: 3 },
