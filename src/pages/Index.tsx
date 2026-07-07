@@ -149,8 +149,8 @@ const Index = () => {
             ⭐⭐⭐⭐⭐ +4.300 avaliações
           </div>
 
-          <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-primary`}>
-            <span className="text-foreground">+60 Mapas Visuais para Entender Anatomia Dental de Forma Simples, Visual e Organizada</span>
+          <h1 className={`${HeadlineFont} text-[36px] sm:text-5xl text-primary`}>
+            <span className="text-foreground">+60 Mapas Visuais Para Entender Anatomia Dental de Forma Simples, Visual e Organizada</span>
             <br />
           </h1>
 
