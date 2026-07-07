@@ -2,12 +2,12 @@ import { useEffect, useMemo, useState, useRef } from "react";
 import { Play, Check, X, ChevronDown, ChevronsDown, Flame, Clock, ShieldCheck, Zap, BookOpen, Trophy, Crown, Library, Dices, Palette, Type, CheckSquare, Gift } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import tshirt1 from "@/assets/Tarot 01.png";
-import tshirt2 from "@/assets/Tarot 02.png";
-import tshirt3 from "@/assets/Tarot 03.png";
-import tshirt4 from "@/assets/Tarot 04.png";
-import tshirt5 from "@/assets/Tarot 05.png";
-import tshirt6 from "@/assets/Tarot 06.png";
+import tshirt1 from "@/assets/Dente01.png";
+import tshirt2 from "@/assets/Dente02.png";
+import tshirt3 from "@/assets/Dente03.png";
+import tshirt4 from "@/assets/Dente04.png";
+import tshirt5 from "@/assets/Dente05.png";
+import tshirt6 from "@/assets/Dente06.png";
 
 import HeroCopa from "@/assets/TatorHero.png";
 import BonusCard from "@/components/BonusCard";
@@ -171,7 +171,7 @@ const Index = () => {
 
             <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
               <p className="font-medium text-lg sm:text-lg">
-               Aprenda a ler e interpretar todas as 78 Cartas do Tarot de forma Simples, Visual e Organizada.
+               Mapas Visuais com explicações diretas que facilitam a compreensão da Anatomia Dental e ajudam você a chegar nas aulas e provas com muito mais segurança.
               </p>
             </div>
           </div>
@@ -188,7 +188,7 @@ const Index = () => {
         {/* T-SHIRTS */}
         <section className="py-6 border-t border-border">
           <h2 className={`${HeadlineFont} text-3xl sm:text-4xl text-center text-foreground`}>
-            Veja alguns dos mapas mentais que você vai receber
+            Veja alguns dos mapas visuais que você vai receber
           </h2>
           <p className="mt-2 text-sm text-muted-foreground text-center">Deslize para o lado pra ver mais</p>
 
@@ -196,7 +196,7 @@ const Index = () => {
             {tshirts.map((t, index) => (
               <div
                 key={`${t.alt}-${index}`}
-                className="snap-center shrink-0 w-[80vw] overflow-hidden"
+                className="snap-center shrink-0 w-[95vw] rounded-xl overflow-hidden shadow-md border border-border"
               >
                 <img src={t.src} alt={t.alt} loading="lazy" className="w-full h-full object-contain block" />
               </div>
@@ -214,7 +214,7 @@ const Index = () => {
               },
               { 
                 icon: "✂️", 
-                title: "Arcanos Maiores e seus significados explicados de forma simples.",
+                title: "Conceito básico e detalhado de cada grupo dentário explicado de forma simples e visual.",
               },
               { 
                 icon: "✏️", 
@@ -260,13 +260,13 @@ const Index = () => {
         <section className="mt-4">
           <div className="space-y-3">
             {[
-              { emoji: "✅", text: "78 Mapas mentais prontos das Cartas do Tarot." },
-              { emoji: "✅", text: "Significado explicado de forma simples." },
-              { emoji: "✅", text: "Palavras-chave, potencial e sombra da carta." },
-              { emoji: "✅", text: "Significado geral, conselho e simbologia do Tarot." },
-              { emoji: "✅", text: "Interpretação no amor." },
-              { emoji: "✅", text: "Interpretação no trabalho." },
-              { emoji: "✅", text: "Interpretação no desenvolvimento espiritual." },
+              { emoji: "✅", text: "60 Mapas visuais organizados por temas." },
+              { emoji: "✅", text: "Fundamentos, conceitos e composição da Anatomia Dental." },
+              { emoji: "✅", text: "Morfologia geral da coroa." },
+              { emoji: "✅", text: "Características gerais e quadro comparativo dos grupos dentários." },
+              { emoji: "✅", text: "Quadro-resumo geral comparando todos os grupos (nº raízes, cúspides, erupção, função)." },
+              { emoji: "✅", text: "Revisões rápidas e práticas para aulas e provas." },
+              { emoji: "✅", text: "Acesso Imediato e otimizado para celular e notebook." },
               { emoji: "✅", text: "Material em PDF para acessar, estudar e imprimir." },
               { emoji: "🎁", text: "Bônus exclusivos no Plano Completo." },
             ].map((item, idx) => (
