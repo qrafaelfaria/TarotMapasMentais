@@ -150,7 +150,7 @@ const Index = () => {
           </div>
 
           <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-primary`}>
-            <span className="text-foreground">78 Mapas Mentais para Aprender as</span> Cartas do Tarot de Forma Visual e Prática
+            <span className="text-foreground">+60 Mapas Visuais para Entender Anatomia Dental de Forma Simples, Visual e Organizada</span>
             <br />
           </h1>
 
