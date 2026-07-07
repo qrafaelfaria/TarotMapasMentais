@@ -9,16 +9,16 @@ import tshirt4 from "@/assets/Dente04.png";
 import tshirt5 from "@/assets/Dente05.png";
 import tshirt6 from "@/assets/Dente06.png";
 
-import HeroCopa from "@/assets/TatorHero.png";
+import HeroCopa from "@/assets/HeroDental.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
 import Feedback01 from "@/assets/Relato01.png";
 import Feedback02 from "@/assets/Relato02.png";
 import Feedback03 from "@/assets/Relato03.png";
 import GarantiaImage from "@/assets/Garantia.webp";
-import Bonus01 from "@/assets/BasicoBonus.jpeg";
-import Bonus02 from "@/assets/OraculoBonus.png";
-import Bonus03 from "@/assets/SaudeBonus.png";
+import Bonus01 from "@/assets/Bonus01.png";
+import Bonus02 from "@/assets/Bonus02.png";
+import Bonus03 from "@/assets/Bonus03.png";
 
 const CHECKOUT_URL = "#checkout";
 const PREMIUM_CHECKOUT_URL = "https://pay.wiapy.com/ri_DgUOgZX6";
@@ -62,22 +62,22 @@ const tshirts = [
 
 const bonuses = [
   {
-    title: "Guia Básico do Tarot",
-    desc: "Um guia fundamental focado nos pilares essenciais para quem está dando os primeiros passos no mundo do Tarot.",
+    title: "Guia dos Dentes Permanentes",
+    desc: "Identifique rapidamente cada dente permanente com um guia visual, prático e fácil de consultar. Ideal para estudantes e profissionais.",
     old: "R$9,90",
     imageSrc: Bonus01,
     isBonus: true,
   },
   {
-    title: "Técnica Oráculo Invertido",
-    desc: "Um exercício prático criado para acelerar a interpretação dos Arcanos Maiores.",
+    title: "Questões Comentadas",
+    desc: "Resolva questões comentadas e fixe os principais conteúdos da Odontologia com explicações claras e objetivas.",
     old: "R$14,90",
     imageSrc: Bonus02,
     isBonus: true,
   },
   {
-    title: "Tarot e Sáude com as Cartas",
-    desc: "Entenda como as cartas podem auxiliar na compreensão energética da saúde e do seu bem-estar integral.",
+    title: "Guia de Urgências Odontológicas",
+    desc: "Consulte rapidamente os principais protocolos e condutas para agir com mais segurança nas urgências odontológicas.",
     old: "R$24,90",
     imageSrc: Bonus03,
     isBonus: true,
@@ -299,15 +299,15 @@ const Index = () => {
         <section className="py-6 mt-4">
           <div className="bg-accent -mx-4 px-6 py-10 mb-8 text-center text-white">
             <p className="text-lg sm:text-xl font-medium leading-tight mb-6">
-              🎁 Além dos <strong> 78 Mapas Mentais das Cartas do Tarot</strong>, ao adquirir o <br />
+              🎁 Além dos <strong> 60 Mapas visuais de Anatomia Dental</strong>, ao adquirir o <br />
               Plano Completo você vai levar <strong>3 SUPER BÔNUS!</strong>
             </p>
             
-            <p className="text-gold text-lg sm:text-xl font-bold italic underline mb-4">
+            <p className="text-white text-lg sm:text-xl font-bold italic underline mb-4">
               (se comprar depois não ganha)
             </p>
             
-            <h2 className={`${HeadlineFont} text-2xl sm:text-3xl text-gold leading-tight uppercase`}>
+            <h2 className={`${HeadlineFont} text-2xl sm:text-3xl text-white leading-tight uppercase`}>
               BÔNUS DISPONÍVEIS SOMENTE NO <br />
               PLANO COMPLETO
             </h2>
@@ -368,7 +368,7 @@ const Index = () => {
                 <span className="text-4xl font-extrabold text-foreground">R$10,00</span>
               </div>
               <ul className="mt-4 space-y-2 text-sm text-left self-start">
-                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> 78 Mapas Mentais das Cartas do Tarot</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> 60 Mapas visuais de Anatomia Dental</li>
                 <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> Material em PDF para acessar e estudar</li>
                 <li className="flex items-start gap-2"><X className="w-4 h-4 text-destructive mt-0.5" /> Não inclui os bônus do Plano Completo</li>
               </ul>
@@ -422,12 +422,12 @@ const Index = () => {
 
                 <ul className="mt-5 space-y-2.5 text-medium text-left self-start">
                   {[
-                    { text: "78 Mapas Mentais das Cartas do Tarot", isBonus: false },
+                    { text: "60 Mapas visuais de Anatomia Dental", isBonus: false },
                     { text: "Material em PDF para acessar e estudar", isBonus: false },
-                    { text: "Cartas e seus significados explicados de forma simples.", isBonus: false },
-                    { text: "Guia Básico do Tarot", isBonus: true, bonusNum: 1 },
-                    { text: "Técnica Oráculo Invertido", isBonus: true, bonusNum: 2 },
-                    { text: "Tarot e Sáude com as Cartas", isBonus: true, bonusNum: 3 },
+                    { text: "Fundamentos, conceitos e composição da Anatomia Dental explicados de forma detalhada.", isBonus: false },
+                    { text: "Guia dos Dentes Permanentes", isBonus: true, bonusNum: 1 },
+                    { text: "Questões Comentadas", isBonus: true, bonusNum: 2 },
+                    { text: "Guia de Urgências Odontológicas", isBonus: true, bonusNum: 3 },
                     { text: "Envio imediato por e-mail (PDF pronto para imprimir)", isBonus: false, },
                     { text: "Acesso vitalício ao material", isBonus: false, },
                   ].map((item, idx) => (
