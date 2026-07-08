@@ -10,12 +10,12 @@ import tshirt5 from "@/assets/Odontopediatria05.png";
 import tshirt6 from "@/assets/Odontopediatria06.png";
 import tshirt7 from "@/assets/Odontopediatria07.png";
 
-import HeroCopa from "@/assets/HeroDental.png";
+import HeroCopa from "@/assets/OdontopediatriaHero.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
-import Feedback01 from "@/assets/Feed01.png";
-import Feedback02 from "@/assets/Feed02.png";
-import Feedback03 from "@/assets/Feed03.png";
+import Feedback01 from "@/assets/Feedback01.png";
+import Feedback02 from "@/assets/Feedback02.png";
+import Feedback03 from "@/assets/Feedback03.png";
 import GarantiaImage from "@/assets/Garantia.webp";
 import Bonus01 from "@/assets/Bonus01.png";
 import Bonus02 from "@/assets/Bonus02.png";
