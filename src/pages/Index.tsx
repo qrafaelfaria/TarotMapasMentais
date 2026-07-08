@@ -2,12 +2,13 @@ import { useEffect, useMemo, useState, useRef } from "react";
 import { Play, Check, X, ChevronDown, ChevronsDown, Flame, Clock, ShieldCheck, Zap, BookOpen, Trophy, Crown, Library, Dices, Palette, Type, CheckSquare, Gift } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import tshirt1 from "@/assets/Dente01.png";
-import tshirt2 from "@/assets/Dente02.png";
-import tshirt3 from "@/assets/Dente03.png";
-import tshirt4 from "@/assets/Dente04.png";
-import tshirt5 from "@/assets/Dente05.png";
-import tshirt6 from "@/assets/Dente06.png";
+import tshirt1 from "@/assets/Odontopediatria01.png";
+import tshirt2 from "@/assets/Odontopediatria02.png";
+import tshirt3 from "@/assets/Odontopediatria03.png";
+import tshirt4 from "@/assets/Odontopediatria04.png";
+import tshirt5 from "@/assets/Odontopediatria05.png";
+import tshirt6 from "@/assets/Odontopediatria06.png";
+import tshirt7 from "@/assets/Odontopediatria07.png";
 
 import HeroCopa from "@/assets/HeroDental.png";
 import BonusCard from "@/components/BonusCard";
@@ -56,6 +57,7 @@ const tshirts = [
   { src: tshirt4, alt: "Estampa Filhos de Deus" },
   { src: tshirt5, alt: "Estampa Cristo é Rei" },
   { src: tshirt6, alt: "Estampa Cristo é Rei" },
+  { src: tshirt7, alt: "Estampa Cristo é Rei" },
 ];
 
 
@@ -150,7 +152,7 @@ const Index = () => {
           </div>
 
           <h1 className={`${HeadlineFont} text-[36px] sm:text-5xl text-foreground`}>
-            <span className="text-primary">+60 Mapas Visuais</span> Para Entender <span className="text-primary">Anatomia Dental</span> de Forma Simples, Visual e Organizada
+            <span className="text-primary">+60 Mapas Visuais</span> Para Entender <span className="text-primary">Odontopediatria</span> de Forma Simples, Visual e Organizada
             <br />
           </h1>
 
@@ -171,7 +173,7 @@ const Index = () => {
 
             <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
               <p className="font-medium text-lg sm:text-lg">
-               Mapas Visuais com explicações diretas que facilitam a compreensão da Anatomia Dental e ajudam você a chegar nas aulas e provas com muito mais segurança.
+               Mapas Visuais com explicações diretas que facilitam a compreensão da Odontopediatria e ajudam você a chegar nas aulas e provas com muito mais segurança.
               </p>
             </div>
           </div>
@@ -213,16 +215,12 @@ const Index = () => {
                 title: "Material Pronto para imprimir em A4.", 
               },
               { 
-                icon: "✂️", 
-                title: "Conceito básico e detalhado de cada grupo dentário explicado de forma simples e visual.",
-              },
-              { 
                 icon: "✏️", 
-                title: "Material visual, bonito e fácil de entender.",
+                title: "Conteúdo visual, bonito e fácil de entender.",
               },
               { 
                 icon: "✅", 
-                title: "Ideal para estudos.",
+                title: "Ideal para estudantes de Odontologia e profissionais.",
               },
             ].map((item, idx) => (
               <div 
@@ -261,10 +259,12 @@ const Index = () => {
           <div className="space-y-3">
             {[
               { emoji: "✅", text: "60 Mapas visuais organizados por temas." },
-              { emoji: "✅", text: "Fundamentos, conceitos e composição da Anatomia Dental." },
-              { emoji: "✅", text: "Morfologia geral da coroa." },
-              { emoji: "✅", text: "Características gerais e quadro comparativo dos grupos dentários." },
-              { emoji: "✅", text: "Quadro-resumo geral comparando todos os grupos (nº raízes, cúspides, erupção, função)." },
+              { emoji: "✅", text: "Crescimento e desenvolvimento." },
+              { emoji: "✅", text: "Dentição decídua e mista." },
+              { emoji: "✅", text: "Manejo comportamental, prevenção e cárie infantil." },
+              { emoji: "✅", text: "Terapia pulpar e traumatismos." },
+              { emoji: "✅", text: "Anomalias e má oclusão." },
+              { emoji: "✅", text: "Procedimentos e protocolos clínicos." },
               { emoji: "✅", text: "Revisões rápidas e práticas para aulas e provas." },
               { emoji: "✅", text: "Acesso Imediato e otimizado para celular e notebook." },
               { emoji: "✅", text: "Material em PDF para acessar, estudar e imprimir." },
@@ -299,7 +299,7 @@ const Index = () => {
         <section className="py-6 mt-4">
           <div className="bg-accent -mx-4 px-6 py-10 mb-8 text-center text-white">
             <p className="text-lg sm:text-xl font-medium leading-tight mb-6">
-              🎁 Além dos <strong> 60 Mapas visuais de Anatomia Dental</strong>, ao adquirir o <br />
+              🎁 Além dos <strong> 60 Mapas visuais de Odontopediatria</strong>, ao adquirir o <br />
               Plano Completo você vai levar <strong>3 SUPER BÔNUS!</strong>
             </p>
             
@@ -368,7 +368,7 @@ const Index = () => {
                 <span className="text-4xl font-extrabold text-foreground">R$10,00</span>
               </div>
               <ul className="mt-4 space-y-2 text-sm text-left self-start">
-                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> 60 Mapas visuais de Anatomia Dental</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> 60 Mapas visuais de Odontopediatria</li>
                 <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> Material em PDF para acessar e estudar</li>
                 <li className="flex items-start gap-2"><X className="w-4 h-4 text-destructive mt-0.5" /> Não inclui os bônus do Plano Completo</li>
               </ul>
@@ -422,9 +422,9 @@ const Index = () => {
 
                 <ul className="mt-5 space-y-2.5 text-medium text-left self-start">
                   {[
-                    { text: "60 Mapas visuais de Anatomia Dental", isBonus: false },
+                    { text: "60 Mapas visuais de Odontopediatria", isBonus: false },
                     { text: "Material em PDF para acessar e estudar", isBonus: false },
-                    { text: "Fundamentos, conceitos e composição da Anatomia Dental explicados de forma detalhada.", isBonus: false },
+                    { text: "Fundamentos e conceitos da Odontopediatria explicados de forma detalhada.", isBonus: false },
                     { text: "Guia dos Dentes Permanentes", isBonus: true, bonusNum: 1 },
                     { text: "Questões Comentadas", isBonus: true, bonusNum: 2 },
                     { text: "Guia de Urgências Odontológicas", isBonus: true, bonusNum: 3 },
